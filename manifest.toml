@@ -47,6 +47,7 @@ ram.runtime = "150M"
     [resources.sources.main]
     url = "https://github.com/tryvocalcat/fediprofile/archive/refs/tags/0.0.2.tar.gz"
     sha256 = "282eec135258d8b70cf29f2e9967349f05a596cc855f76523c1990df26651b0f"
+    in_subdir = true
     # Careful, this autoupdate does not put the right asset, it only serves as a notification!
     autoupdate.strategy = "latest_github_tag"
     autoupdate.asset = "tarball"
