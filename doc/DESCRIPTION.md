@@ -1,1 +1,2 @@
-This is a dummy description of this app features
+Your links, badges, and identity - powered by the Fediverse.
+The open-source, federated alternative to Linktree.
