@@ -72,7 +72,7 @@ ram.runtime = "150M"
     main.url = "/"
 
     [resources.ports]
-    main.default = 5000
+    main.default = 5099
 
     [resources.apt]
     # This will automatically install/uninstall the following apt packages
