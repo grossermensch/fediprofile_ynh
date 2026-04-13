@@ -15,8 +15,8 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir/sources"
 ynh_setup_source --source_id="dotnet" --dest_dir="$install_dir/dotnet"
 mkdir -p "$install_dir/app"
-pushd "$install_dir/sources"
-    
+RID="linux-$YNH_ARCH"
+"$install_dir/dotnet/dotnet" publish "$install_dir/sources/src/FediProfile/FediProfile.csproj" -c Release -o "$install_dir/app" --self-contained false -r "$RID"
 
 #=================================================
 # SYSTEM CONFIGURATION
