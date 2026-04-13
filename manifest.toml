@@ -20,7 +20,7 @@ admindoc = "https://github.com/tryvocalcat/fediprofile/blob/main/README.md"
 yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 # FIXME: can be replaced by a list of supported archs using the dpkg --print-architecture nomenclature (amd64/i386/armhf/arm64), for example: ["amd64", "i386"]
-architectures = ["amd64", "arm64", "armhf"]
+architectures = ["amd64", "arm64"]
 multi_instance = false
 
 ldap = false
