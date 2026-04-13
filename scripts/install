@@ -14,6 +14,9 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir/sources"
 ynh_setup_source --source_id="dotnet" --dest_dir="$install_dir/dotnet"
+mkdir -p "$install_dir/app"
+pushd "$install_dir/sources"
+    
 
 #=================================================
 # SYSTEM CONFIGURATION
